@@ -1,8 +1,9 @@
 LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
+include $(LIBION_HEADER_PATH_WRAPPER)
 
 # ---------------------------------------------------------------------------------
-# 				Common definitons
+#                      Common definitons
 # ---------------------------------------------------------------------------------
 
 libmm-vdec-def := -D__alignx\(x\)=__attribute__\(\(__aligned__\(x\)\)\)

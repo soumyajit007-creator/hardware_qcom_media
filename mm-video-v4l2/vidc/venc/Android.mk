@@ -1,8 +1,9 @@
 LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
+include $(LIBION_HEADER_PATH_WRAPPER)
 
 # ---------------------------------------------------------------------------------
-# 				Common definitons
+#                      Common definitons
 # ---------------------------------------------------------------------------------
 
 libmm-venc-def := -g -O3 -Dlrintf=_ffix_r
